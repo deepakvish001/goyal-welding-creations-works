@@ -71,7 +71,7 @@ const Header = () => {
             <Button
               variant="contact"
               size="sm"
-              onClick={() => window.open('https://wa.me/7007801235', '_blank')}
+              onClick={() => window.open('https://wa.me/917007801235', '_blank')}
               className="hidden md:flex"
             >
               Contact Us
@@ -83,6 +83,7 @@ const Header = () => {
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
@@ -120,7 +121,7 @@ const Header = () => {
               <Button
                 variant="contact"
                 size="sm"
-                onClick={() => window.open('https://wa.me/7007801235', '_blank')}
+                onClick={() => window.open('https://wa.me/917007801235', '_blank')}
                 className="w-fit"
               >
                 Contact Us

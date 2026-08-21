@@ -53,7 +53,7 @@ const Hero = () => {
               <Button
                 variant="hero"
                 size="lg"
-                onClick={() => window.open('https://wa.me/7007801235', '_blank')}
+                onClick={() => window.open('https://wa.me/917007801235', '_blank')}
                 className="hover-scale"
               >
                 Get Quote Now

@@ -164,7 +164,7 @@ const Contact = () => {
               <Button
                 variant="hero"
                 size="lg"
-                onClick={() => window.open('https://wa.me/7007801235', '_blank')}
+                onClick={() => window.open('https://wa.me/917007801235', '_blank')}
                 className="w-full hover-scale mb-4"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
